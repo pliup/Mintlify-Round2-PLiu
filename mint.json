@@ -3,7 +3,8 @@
   "name": "DeepgramDocs",
   "logo": {
     "dark": "/logo/c96cd09-Docs_logo.svg",
-    "light": "/logo/c96cd09-Docs_logo.svg"
+    "light": "/logo/c96cd09-Docs_logo.svg",
+    "href": "https://mintlify-096c1c92.mintlify.app/Introduction"
   },
   "favicon": "/deepgramfavicon.png",
   "colors": {
