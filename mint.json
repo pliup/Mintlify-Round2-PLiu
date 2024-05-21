@@ -22,14 +22,38 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Free API Key",
+    "url": "https://console.deepgram.com/signup?jump=keys"
   },
   "tabs": [
     {
+      "name": "Documentation",
+      "url": "https://developers.deepgram.com/docs"
+    },
+    {
+      "name": "Recipes",
+      "url": "https://developers.deepgram.com/recipes"
+    },
+    {
       "name": "API Reference",
-      "url": "api-reference"
-    }
+      "url": "https://developers.deepgram.com/reference"
+    },
+    {
+      "name": "Community",
+      "url": "https://developers.deepgram.com/page/community"
+    },
+    {
+      "name": "API Playground",
+      "url": "https://playground.deepgram.com/"
+    },
+    {
+      "name": "Blog",
+      "url": "https://deepgram.com/learn?_gl=1*1ecqh2s*_ga*OTg1NzAyMTQ1LjE3MTYzMDcyOTU.*_ga_TYPC1TBCKT*MTcxNjMxMjIyNS4yLjAuMTcxNjMxMjIyNy41OC4wLjA."
+    },
+    {
+      "name": "Status",
+      "url": "https://status.deepgram.com/"
+    },
   ],
   "anchors": [
     {
