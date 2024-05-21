@@ -17,8 +17,7 @@
   },
   "modeToggle": {
     "default": "dark",
-    "isHidden":true
-  },
+    "isHidden": true},
   "topbarCtaButton": {
     "name": "Free API Key",
     "url": "https://console.deepgram.com/signup?jump=keys"
