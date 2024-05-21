@@ -1,5 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
+  "modeToggle": {
+  "default": "dark",
+  "isHidden": true
+},
   "name": "DeepgramDocs",
   "logo": {
     "dark": "/logo/c96cd09-Docs_logo.svg",
