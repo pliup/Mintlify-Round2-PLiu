@@ -69,9 +69,9 @@
       ]
     },
     {
-      "group": "Text to Speech",
+      "group": "TEXT TO SPEECH",
       "pages": [
-        "Getting Started",
+        "Getting Started (tts)",
         "Feature Overview",
         "Starter Apps",
         "Voice Selection",
@@ -84,7 +84,7 @@
     {
       "group": "TEXT TO TEXT",
       "pages": [
-        "Getting Started",
+        "Getting Started (ttt)",
         "Feature Overview",
         "Intent Recognition",
         "Sentiment Analysis",
@@ -117,7 +117,7 @@
     {
       "group": "ONPREM DEPLOYMENTS",
       "pages": [
-        "Introduction",
+        "Introduction (od)",
         "Deployment Environments",
         "Docker/Podman",
         "Self Service Licensing & Credentials",
