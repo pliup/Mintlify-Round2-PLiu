@@ -24,6 +24,7 @@
     "light": "#1c1c20",
     "dark": "#1c1c20"
   },
+  "openapi": ["openapi.json"],
   "tabs": [
     {
       "name": "Recipes",
@@ -31,7 +32,7 @@
     },
     {
       "name": "API Reference",
-      "url": "https://api.prefect.cloud/api/openapi.json"
+      "url": "https://developers.deepgram.com/reference"
     },
     {
       "name": "Community",
