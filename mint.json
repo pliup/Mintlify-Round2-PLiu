@@ -7,9 +7,9 @@
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#79AFFA",
-    "light": "#d41cbc",
-    "dark": "#000000"
+    "primary": "#d41cbc",
+    "light": "#79AFFA",
+    "dark": "#79AFFA"
   },
   "topbarCtaButton": {
     "name": "Free API Key",
