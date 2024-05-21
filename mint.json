@@ -10,7 +10,7 @@
   "colors": {
     "primary": "#d41cbc",
     "light": "#79AFFA",
-    "dark": "#79AFFA"
+    "dark": "#d41cbc"
   },
   "topbarCtaButton": {
     "name": "Free API Key",
