@@ -1,140 +1,132 @@
-{
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "DeepgramDocs",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#101014",
-    "light": "#79AFFA",
-    "dark": "#000000",
-    "anchors": {
-      "from": "#8470be",
-      "to": "#79AFFA"
-    }
-  },
-  "topbarCtaButton": {
-    "name": "Free API Key",
-    "url": "https://console.deepgram.com/signup?jump=keys"
-  },
-  "tabs": [
-    {
-      "name": "Recipes",
-      "url": "https://developers.deepgram.com/recipes"
-    },
-    {
-      "name": "API Reference",
-      "url": "https://developers.deepgram.com/reference"
-    },
-    {
-      "name": "Community",
-      "url": "https://developers.deepgram.com/page/community"
-    },
-    {
-      "name": "API Playground",
-      "url": "https://playground.deepgram.com/"
-    },
-    {
-      "name": "Blog",
-      "url": "https://deepgram.com/learn?_gl=1*1ecqh2s*_ga*OTg1NzAyMTQ1LjE3MTYzMDcyOTU.*_ga_TYPC1TBCKT*MTcxNjMxMjIyNS4yLjAuMTcxNjMxMjIyNy41OC4wLjA."
-    },
-    {
-      "name": "Status",
-      "url": "https://status.deepgram.com/"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "DEEPGRAM DOCS",
-      "pages": [
-        "Introduction",
-        "Getting Started",
-        "Support"
-      ]
-    },
-    {
-      "group": "SPEECH TO TEXT",
-      "pages": [
-        "Pre-recorded",
-        "Streaming",
-        "Intelligence",
-        "Models and Languages",
-        "Formatting",
-        "Custom Vocabulary",
-        "Media Input Settings",
-        "Results Processing",
-        "Feature Deep Dives"
-      ]
-    },
-    {
-      "group": "TEXT TO SPEECH",
-      "pages": [
-        "Getting Started (tts)",
-        "Feature Overview",
-        "Starter Apps",
-        "Voice Selection",
-        "TTS Callback",
-        "Audio Output Streaming",
-        "Media Output Streaming",
-        "Tips and Tricks"
-      ]
-    },
-    {
-      "group": "TEXT TO TEXT",
-      "pages": [
-        "Getting Started (ttt)",
-        "Feature Overview",
-        "Intent Recognition",
-        "Sentiment Analysis",
-        "Summarization",
-        "Topic Detection"
-      ]
-    },
-    {
-      "group": "GUIDES",
-      "pages": [
-        "Fundamentals",
-        "Migrating",
-        "Use Case Examples",
-        "Integrations"
-      ]
-    },
-    {
-      "group": "SDKs",
-      "pages": [
-        "Deepgram SDKs",
-        "SDK Feature Matrix",
-        "JavaScript SDK",
-        "Python SDK",
-        ".NET SDK",
-        "GO SDK",
-        "Rust SDK [community]",
-        "Flutter SDK [community]"
-      ]
-    },
-    {
-      "group": "ONPREM DEPLOYMENTS",
-      "pages": [
-        "Introduction (od)",
-        "Deployment Environments",
-        "Docker/Podman",
-        "Self Service Licensing & Credentials",
-        "Scaling and Deployment Strategies",
-        "On-Prem Add Ons",
-        "Using SDKs with On-Prem"
-      ]
-    },
-    {
-      "group": "SECURITY",
-      "pages": [
-        "Security Policy",
-        "Data Privacy Compliance",
-        "Information Security & Privacy Statement"
-      ]
-    }
-  ]
-}
-  }
-}
+---
+title: Introduction
+description: 'Welcome to Deepgram Docs! Build with our powerful text-to-speech, speech-to-text, and intelligence APIs.'
+---
+
+## Deepgram APIs
+
+
+<CardGroup cols={3}>
+  <Card
+    title="Speech to Text"
+    icon="pen-to-square"
+    href="https://mintlify.com/docs/quickstart"
+  >
+    Transcribe Audio
+      * [Pre-recorded](https://developers.deepgram.com/docs/getting-started-with-pre-recorded-audio)
+      * [Streaming](https://developers.deepgram.com/docs/getting-started-with-live-streaming-audio)
+      * [Models and Languages](https://developers.deepgram.com/docs/models-languages-overview)
+  </Card>
+  <Card
+    title="Text to Speech"
+    icon="image"
+    href="https://mintlify.com/docs/development"
+  >
+    Generate Voice
+    * [Getting Started](https://developers.deepgram.com/docs/text-to-speech)
+    * [Voices](https://developers.deepgram.com/docs/tts-models)
+  </Card>
+  <Card
+    title="Intelligence"
+    icon="image"
+    href="https://mintlify.com/docs/development"
+  >
+    Gain Insights
+    * [Audio-to-text](https://developers.deepgram.com/docs/audio-intelligence)
+    * [Text-to-text](https://developers.deepgram.com/docs/text-intelligence)
+  </Card>
+</CardGroup>
+
+## Building Blocks
+
+<CardGroup cols={3}>
+  <Card
+    title="Voicebot with analytics"
+    icon="palette"
+    href="https://mintlify.com/docs/settings/global"
+  >
+    Create an end-to-end voice bot which can:
+    Listen to customers: [Streaming Guide](https://developers.deepgram.com/docs/getting-started-with-live-streaming-audio)
+    Understand customer: [Intent Recognition](https://developers.deepgram.com/docs/intent-recognition)
+    Respond to customer: [Text-to-speech Guide](https://developers.deepgram.com/docs/text-to-speech)
+    Alert on low sentiment [Sentiement Analysis](https://developers.deepgram.com/docs/sentiment-analysis)
+  </Card>
+  <Card
+    title="Intelligent agent assist"
+    icon="code"
+    href="https://mintlify.com/docs/api-playground/openapi"
+  >
+    Create an intelligent agent assist system:
+    Listen to customer: [Streaming Guide](https://developers.deepgram.com/docs/getting-started-with-live-streaming-audio)
+    Understand customer: [Intent Recognition](https://developers.deepgram.com/docs/intent-recognition)
+    Identify low sentiment: [Sentiement Analysis](https://developers.deepgram.com/docs/sentiment-analysis)
+    Summarize for quick access: [Summarization](https://developers.deepgram.com/docs/summarization)
+  </Card>
+  <Card
+    title="Live Captions"
+    icon="screwdriver-wrench"
+    href="https://mintlify.com/docs/components/accordion"
+  >
+    Create captions:
+    [Generate WebVTT & SRT Captions Guide](https://developers.deepgram.com/docs/automatically-generating-webvtt-and-srt-captions)
+    [Deepgram's Python Captions OSS Package](https://github.com/deepgram/deepgram-python-captions)
+    [Deepgram's Javascript Captions OSS Package](https://github.com/deepgram/deepgram-js-captions)
+  </Card>
+</CardGroup>
+
+## SDKs
+
+<CardGroup cols={4}>
+  <Card
+    title="Javascript"
+    icon="palette"
+    href="https://developers.deepgram.com/docs/js-sdk"
+  >
+  </Card>
+  <Card
+    title="Python"
+    icon="code"
+    href="https://developers.deepgram.com/docs/python-sdk"
+  >
+  </Card>
+  <Card
+    title="Go"
+    icon="screwdriver-wrench"
+    href="https://developers.deepgram.com/docs/go-sdk"
+  >
+  </Card>
+  <Card
+    title=".NET"
+    icon="screwdriver-wrench"
+    href="https://developers.deepgram.com/docs/dotnet-sdk"
+  >
+  </Card>
+</CardGroup>
+
+## Resources
+<CardGroup cols={3}>
+  <Card
+    title="Explore"
+    icon="palette"
+    href="https://developers.deepgram.com/docs/js-sdk"
+  >
+  * [API Playground](https://playground.deepgram.com/)
+  * [API Reference](https://developers.deepgram.com/reference/deepgram-api-overview)
+  </Card>
+  <Card
+    title="Self Host"
+    icon="code"
+    href="https://developers.deepgram.com/docs/python-sdk"
+  >
+  * [Get started on-prem](https://developers.deepgram.com/docs/on-prem-introduction)
+  * [On-prem add-ons](https://developers.deepgram.com/docs/introduction-1)
+  </Card>
+  <Card
+    title="Community"
+    icon="screwdriver-wrench"
+    href="https://developers.deepgram.com/docs/go-sdk"
+  >
+  * [Discord](https://dpgr.am/discord)
+  * [Discussion Forums](https://github.com/orgs/deepgram/discussions)
+  </Card>
+</CardGroup>
