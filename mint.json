@@ -134,6 +134,10 @@
         "Information Security & Privacy Statement"
       ]
     }
-  ]
-}
+  ],
+  "footerSocials": {
+    "x": "https://x.com/deepgramai?lang=en",
+    "github": "https://github.com/deepgram",
+    "linkedin": "https://www.linkedin.com/company/deepgram/"
+  } 
 }
