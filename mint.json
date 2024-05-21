@@ -14,6 +14,10 @@
       "from": "#8470be",
       "to": "#79AFFA"
     }
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": true
+  }
   },
   "topbarCtaButton": {
     "name": "Free API Key",
