@@ -20,10 +20,7 @@
     "name": "Free API Key",
     "url": "https://console.deepgram.com/signup?jump=keys"
   },
-  "background": {
-    "light": "#1c1c20",
-    "dark": "#1c1c20"
-  },
+  "openapi": ["openapi.json"],
   "tabs": [
     {
       "name": "Recipes",
