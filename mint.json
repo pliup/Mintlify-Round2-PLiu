@@ -61,7 +61,7 @@
     },
     {
       "group": "API Refernce",
-      "pages": ["API%20Reference/introduction", "API%20Reference/health-check"]
+      "pages": ["API%20Reference/account-billing/create-checkout-session", "API%20Reference/health-check"]
     },
     {
       "group": "SPEECH TO TEXT",
