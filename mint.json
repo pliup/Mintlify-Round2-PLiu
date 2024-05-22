@@ -60,6 +60,8 @@
         "pages": [
             "Reference/Overview",
             "Reference/health-check",
+            "Reference/cancel-org-subscription-at-period-end",
+            "Reference/validate-template",
             "APIAPI",
             "api-reference/introduction"
         ]
