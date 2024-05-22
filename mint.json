@@ -61,7 +61,7 @@
     },
     {
       "group": "API Refernce",
-      "pages": ["API Reference/health-check"]
+      "pages": ["api-reference/introduction"]
     },
     {
       "group": "SPEECH TO TEXT",
