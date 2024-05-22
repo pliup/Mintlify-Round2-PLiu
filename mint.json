@@ -56,6 +56,16 @@
       ]
     },
     {
+        "group": "APIRef",
+        "pages": [
+            "APIAPI/APIAPI",
+            "API Reference/introduction",
+            "API Reference/health-check",
+            "APIAPI",
+            "api-reference/introduction"
+        ]
+    },
+    {
       "group": "SPEECH TO TEXT",
       "pages": [
         "Pre-recorded",
