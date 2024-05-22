@@ -31,7 +31,7 @@
     },
     {
       "name": "API Reference",
-      "url": "logs"
+      "url": "api-reference"
     },
     {
       "name": "Community",
@@ -58,6 +58,10 @@
         "Getting Started",
         "Support"
       ]
+    },
+    {
+      "group": "API Refernce",
+      "pages": ["API Reference/health-check"]
     },
     {
       "group": "SPEECH TO TEXT",
@@ -145,4 +149,4 @@
     "github": "https://github.com/deepgram",
     "linkedin": "https://www.linkedin.com/company/deepgram/"
   } 
-}
+}o
