@@ -60,13 +60,6 @@
       ]
     },
     {
-      "group": "API Refernce",
-      "pages": [
-        "account-billing/create-checkout-session", 
-        "API Reference/health-check"
-      ]
-    },
-    {
       "group": "SPEECH TO TEXT",
       "pages": [
         "Pre-recorded",
