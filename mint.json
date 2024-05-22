@@ -61,14 +61,7 @@
             "Reference/Overview",
             "Reference/health-check",
             "Reference/account-billing/cancel-org-subscription-at-period-end.mdx",
-            "Reference/account-billing",
-            {
-              "group": "Account Billing",
-              "pages": ["create-billing-portal-session"]
-            },
-            "Reference/validate-template",
-            "APIAPI",
-            "api-reference/introduction"
+            "Reference/validate-template"
         ]
     },
     {
