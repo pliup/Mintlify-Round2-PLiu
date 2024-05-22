@@ -58,9 +58,7 @@
     {
         "group": "API References",
         "pages": [
-            "Reference/account-billing/cancel-org-subscription-at-period-end.mdx",
-            "Reference/account-billing/create-billing-portal-session.mdx",
-            "Reference/Deepgram API Overview",
+            "Reference/Overview",
             "Reference/health-check",
             "APIAPI",
             "api-reference/introduction"
