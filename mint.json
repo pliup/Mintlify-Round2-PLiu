@@ -175,7 +175,7 @@
               ]
             },
             {
-              "group": "Block SChemas",
+              "group": "Block Schemas",
               "pages": [
                 "Reference/block-schemas/create-block-schema",
                 "Reference/block-schemas/delete-block-schema",
@@ -199,7 +199,7 @@
               ]
             },
             {
-              "group": "bots",
+              "group": "Bots",
               "pages": [
                 "Reference/bots/create-bot",
                 "Reference/bots/delete-bot-api-key",
