@@ -77,10 +77,13 @@
             "Reference/account-roles/update-account-role",
             "Reference/account-sso",
             {
-              "group": "Nested pages",
+              "group": "Account SSO",
               "pages": [
                 "Reference/account-sso/integrations",
-                "read-dsync-setup-url" 
+                "Reference/account-sso/read-dsync-setup-url",
+                "Reference/account-sso/read-sso-setup-url",
+                "Reference/account-sso/remove-integration",
+                "Reference/account-sso/validate" 
               ]
             },
             "Reference/health-check",
