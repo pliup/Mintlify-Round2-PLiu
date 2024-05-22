@@ -76,6 +76,13 @@
             "Reference/account-roles/read-account-roles",
             "Reference/account-roles/update-account-role",
             "Reference/account-sso",
+            {
+              "group": "Nested pages",
+              "pages": [
+                "Reference/account-sso/integrations",
+                "read-dsync-setup-url" 
+              ]
+            },
             "Reference/health-check",
             "Reference/validate-template"
         ]
