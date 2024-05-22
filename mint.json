@@ -59,8 +59,8 @@
         "group": "API References",
         "pages": [
             "APIAPI/APIAPI",
-            "API Reference/introduction",
-            "API Reference/health-check",
+            "Reference/introduction",
+            "Reference/health-check",
             "APIAPI",
             "api-reference/introduction"
         ]
