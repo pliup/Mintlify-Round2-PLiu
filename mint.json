@@ -59,8 +59,14 @@
         "group": "API References",
         "pages": [
             "Reference/Overview",
+            "account-billing/cancel-org-subscription-at-period-end",
+            "account-billing/create-billing-portal-session",
+            "Reference/account-billing/create-checkout-session",
+            "Reference/account-billing/downgrade-tier",
+            "Reference/account-billing/get-billing-details",
+            "Reference/account-billing/process-checkout-session",
+            "Reference/account-billing/update-slots",
             "Reference/health-check",
-            "Reference/account-billing/cancel-org-subscription-at-period-end",
             "Reference/validate-template"
         ]
     },
