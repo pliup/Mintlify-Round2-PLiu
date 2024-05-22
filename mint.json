@@ -86,6 +86,468 @@
                 "Reference/account-sso/validate" 
               ]
             },
+            {
+              "group": "Accounts",
+              "pages": [
+                "Reference/accounts/delete-account",
+                "Reference/accounts/list-permissions",
+                "Reference/accounts/read-account-domains",
+                "Reference/accounts/read-account-settings",
+                "Reference/accounts/read-account",
+                "Reference/accounts/update-account-domains",
+                "Reference/accounts/update-account-settings",
+                "Reference/accounts/update-account"
+              ]
+            },
+            {
+              "group": "AI",
+              "pages": [
+                "Reference/ai/summarize-flow-run-logs"
+              ]
+            },
+            {
+              "group": "Artifacts",
+              "pages": [
+                "Reference/artifacts/count-artifacts",
+                "Reference/artifacts/count-latest-artifacts",
+                "Reference/artifacts/create-artifact",
+                "Reference/artifacts/delete-artifact",
+                "Reference/artifacts/read-artifact",
+                "Reference/artifacts/read-artifacts",
+                "Reference/artifacts/read-latest-artifact",
+                "Reference/artifacts/read-latest-artifacts",
+                "Reference/artifacts/update-artifact"
+              ]
+            },
+            {
+              "group": "Auth",
+              "pages": [
+                "Reference/auth/flags"
+              ]
+            },
+            {
+              "group": "Automations",
+              "pages": [
+                "Reference/automations/count-automations",
+                "Reference/automations/create-automation",
+                "Reference/automations/delete-automation",
+                "Reference/automations/delete-automations-owned-by-resource",
+                "Reference/automations/patch-automation",
+                "Reference/automations/read-automation",
+                "Reference/automations/read-automations-related-to-resource",
+                "Reference/automations/read-automations",
+                "Reference/automations/update-automation",
+                "Reference/automations/validate-template"
+              ]
+            },
+            {
+              "group": "Block Capabilities",
+              "pages": [
+                "Reference/block-capabilities/read-available-block-capabilities"
+              ]
+            },
+            {
+              "group": "Block Documents",
+              "pages": [
+                "Reference/block-documents/count-block-documents",
+                "Reference/block-documents/create-block-document",
+                "Reference/block-documents/delete-block-document",
+                "Reference/block-documents/read-actors-block-document-access",
+                "Reference/block-documents/read-block-document-access",
+                "Reference/block-documents/read-block-document-by-id",
+                "Reference/block-documents/read-block-documents",
+                "Reference/block-documents/set-block-document-access",
+                "Reference/block-documents/update-block-document-data"
+              ]
+            },
+            {
+              "group": "Block SChemas",
+              "pages": [
+                "Reference/block-schemas/create-block-schema",
+                "Reference/block-schemas/delete-block-schema",
+                "Reference/block-schemas/read-block-schema-by-checksum",
+                "Reference/block-schemas/read-block-schema-by-id",
+                "Reference/block-schemas/read-block-schemas"
+              ]
+            },
+            {
+              "group": "Block Types",
+              "pages": [
+                "Reference/block-types/create-block-type",
+                "Reference/block-types/delete-block-type",
+                "Reference/block-types/install-system-block-types",
+                "Reference/block-types/read-block-document-by-name-for-block-type",
+                "Reference/block-types/read-block-documents-for-block-type",
+                "Reference/block-types/read-block-type-by-id",
+                "Reference/block-types/read-block-type-by-slug",
+                "Reference/block-types/read-block-types",
+                "Reference/block-types/update-block-type"
+              ]
+            },
+            {
+              "group": "bots",
+              "pages": [
+                "Reference/bots/create-bot",
+                "Reference/bots/delete-bot-api-key",
+                "Reference/bots/delete-bot",
+                "Reference/bots/read-bot-api-keys",
+                "Reference/bots/read-bot",
+                "Reference/bots/read-bots",
+                "Reference/bots/rotate-api-key",
+                "Reference/bots/update-bot"
+              ]
+            },
+            {
+              "group": "Collections",
+              "pages": [
+                "Reference/collections/read-available-work-pool-types",
+                "Reference/collections/read-view-content"
+              ]
+            },
+            {
+              "group": "Concurrency Limits",
+              "pages": [
+                "Reference/concurrency-limits/create-concurrency-limit",
+                "Reference/concurrency-limits/delete-concurrency-limit-by-tag",
+                "Reference/concurrency-limits/delete-concurrency-limit",
+                "Reference/concurrency-limits/read-concurrency-limit-by-tag",
+                "Reference/concurrency-limits/read-concurrency-limit",
+                "Reference/concurrency-limits/read-concurrency-limits",
+                "Reference/concurrency-limits/reset-concurrency-limit-by-tag"
+            ]
+            },
+            {
+              "group": "Concurrency Limits V2",
+              "pages": [
+                "Reference/concurrency-limits-v2/bulk-decrement-active-slots",
+                "Reference/concurrency-limits-v2/bulk-increment-active-slots",
+                "Reference/concurrency-limits-v2/create-concurrency-limit-v2",
+                "Reference/concurrency-limits-v2/delete-concurrency-limit-v2",
+                "Reference/concurrency-limits-v2/read-all-concurrency-limits-v2",
+                "Reference/concurrency-limits-v2/read-concurrency-limit-v2",
+                "Reference/concurrency-limits-v2/update-concurrency-limit-v2"
+              ]
+            },
+            {
+              "group": "Deployments",
+              "pages": [
+                "Reference/deployments/count-deployments",
+                "Reference/deployments/create-deployment-schedules",
+                "Reference/deployments/create-deployment",
+                "Reference/deployments/create-flow-run-from-deployment",
+                "Reference/deployments/delete-deployment-schedule",
+                "Reference/deployments/delete-deployment",
+                "Reference/deployments/get-scheduled-flow-runs-for-deployments",
+                "Reference/deployments/pause-deployment-1",
+                "Reference/deployments/pause-deployment",
+                "Reference/deployments/read-actors-deployment-access",
+                "Reference/deployments/read-deployment-access",
+                "Reference/deployments/read-deployment-by-name",
+                "Reference/deployments/read-deployment-schedules",
+                "Reference/deployments/read-deployment",
+                "Reference/deployments/read-deployments",
+                "Reference/deployments/resume-deployment-1",
+                "Reference/deployments/resume-deployment",
+                "Reference/deployments/schedule-deployment",
+                "Reference/deployments/set-deployment-access",
+                "Reference/deployments/update-deployment-schedule",
+                "Reference/deployments/update-deployment",
+                "Reference/deployments/work-queue-check-for-deployment"
+              ]
+            },
+            {
+              "group": "Events",
+              "pages": [
+                "Reference/events/count-account-events",
+                "Reference/events/count-workspace-events",
+                "Reference/events/create-account-events",
+                "Reference/events/create-workspace-events",
+                "Reference/events/read-account-events-page",
+                "Reference/events/read-account-events",
+                "Reference/events/read-workspace-events-page",
+                "Reference/events/read-workspace-events"
+              ]
+            },
+            {
+              "group": "Flow Run States",
+              "pages": [
+                "Reference/flow-run-states/read-flow-run-state",
+                "Reference/flow-run-states/read-flow-run-states"
+              ]
+            },
+            {
+              "group": "Flow Runs",
+              "pages": [
+                "Reference/flow-runs/average-flow-run-lateness",
+                "Reference/flow-runs/count-flow-runs",
+                "Reference/flow-runs/create-flow-run-input",
+                "Reference/flow-runs/create-flow-run",
+                "Reference/flow-runs/delete-flow-run-input",
+                "Reference/flow-runs/delete-flow-run",
+                "Reference/flow-runs/filter-flow-run-input",
+                "Reference/flow-runs/flow-run-history",
+                "Reference/flow-runs/read-flow-run-graph-v1",
+                "Reference/flow-runs/read-flow-run-graph-v2",
+                "Reference/flow-runs/read-flow-run-history",
+                "Reference/flow-runs/read-flow-run-input",
+                "Reference/flow-runs/read-flow-run",
+                "Reference/flow-runs/read-flow-runs-minimal",
+                "Reference/flow-runs/read-flow-runs",
+                "Reference/flow-runs/resume-flow-run",
+                "Reference/flow-runs/set-flow-run-state",
+                "Reference/flow-runs/update-flow-run"
+              ]
+            },
+            {
+              "group": "Flows",
+              "pages": [
+                "Reference/flows/count-deployments-by-flow",
+                "Reference/flows/count-flows",
+                "Reference/flows/create-flow",
+                "Reference/flows/delete-flow",
+                "Reference/flows/next-runs-by-flow",
+                "Reference/flows/read-flow-by-name",
+                "Reference/flows/read-flow",
+                "Reference/flows/read-flows",
+                "Reference/flows/update-flow"
+              ]
+            },
+            {
+              "group": "Invitations",
+              "pages": [
+                "Reference/invitations/accept-invitation",
+                "Reference/invitations/count-invitations",
+                "Reference/invitations/create-invitation",
+                "Reference/invitations/read-invitation",
+                "Reference/invitations/read-invitations",
+                "Reference/invitations/reject-invitation",
+                "Reference/invitations/revoke-invitation"
+              ]
+            },
+            {
+              "group": "Logs",
+              "pages": [
+                "Reference/logs/create-logs",
+                "Reference/logs/read-logs"
+              ]
+            },
+            {
+              "group": "Me",
+              "pages": [
+                "Reference/me/check-my-account-permissions",
+                "Reference/me/check-my-workspace-scopes",
+                "Reference/me/filter-my-api-keys",
+                "Reference/me/filter-my-sessions",
+                "Reference/me/leave-account",
+                "Reference/me/leave-workspace",
+                "Reference/me/read-my-account-permissions",
+                "Reference/me/read-my-accounts-with-permission",
+                "Reference/me/read-my-accounts",
+                "Reference/me/read-my-api-keys",
+                "Reference/me/read-my-organizations",
+                "Reference/me/read-my-profile",
+                "Reference/me/read-my-sessions",
+                "Reference/me/read-my-workspace-scopes",
+                "Reference/me/read-my-workspaces",
+                "Reference/me/terminate-my-session"
+              ]
+            },
+            {
+              "group": "Metrics",
+              "pages": [
+                "Reference/metrics/read-prefect-metric"
+              ]
+            },
+            {
+              "group": "Root",
+              "pages": [
+                "Reference/root/hello"
+              ]
+            },
+            {
+              "group": "Saved Searches",
+              "pages": [
+                "Reference/savedsearches/create-saved-search",
+                "Reference/savedsearches/delete-saved-search",
+                "Reference/savedsearches/read-saved-search",
+                "Reference/savedsearches/read-saved-searches"
+              ]
+            },
+            {
+              "group": "Task Run States",
+              "pages": [
+                "Reference/task-run-states/read-task-run-state",
+                "Reference/task-run-states/read-task-run-states"
+              ]
+            },
+            {
+              "group": "Task Runs",
+              "pages": [
+                "Reference/task-runs/count-task-runs",
+                "Reference/task-runs/create-task-run",
+                "Reference/task-runs/delete-task-run",
+                "Reference/task-runs/read-dashboard-task-run-counts",
+                "Reference/task-runs/read-task-run-counts-by-state",
+                "Reference/task-runs/read-task-run",
+                "Reference/task-runs/read-task-runs",
+                "Reference/task-runs/set-task-run-state",
+                "Reference/task-runs/task-run-history",
+                "Reference/task-runs/update-task-run"
+              ]
+            },
+            {
+              "group": "Teams",
+              "pages": [
+                "Reference/teams/create-team",
+                "Reference/teams/delete-team",
+                "Reference/teams/read-team",
+                "Reference/teams/read-teams",
+                "Reference/teams/remove-team-member",
+                "Reference/teams/update-team",
+                "Reference/teams/upsert-team-members"
+              ]
+            },
+            {
+              "group": "UI",
+              "pages": [
+                "Reference/ui/validate-obj",
+                "Reference/ui/validate-schema"
+              ]
+            },
+            {
+              "group": "Users",
+              "pages": [
+                "Reference/users/create-user-api-key",
+                "Reference/users/delete-user-api-key",
+                "Reference/users/delete-user",
+                "Reference/users/read-user-api-key",
+                "Reference/users/read-user-api-keys",
+                "Reference/users/read-user",
+                "Reference/users/update-user"
+              ]
+            },
+            {
+              "group": "Variables",
+              "pages": [
+                "Reference/variables/count-variables",
+                "Reference/variables/create-variable",
+                "Reference/variables/delete-variable-by-name",
+                "Reference/variables/delete-variable",
+                "Reference/variables/read-variable-by-name",
+                "Reference/variables/read-variable",
+                "Reference/variables/read-variables",
+                "Reference/variables/update-variable-by-name",
+                "Reference/variables/update-variable"
+              ]
+            },
+            {
+              "group": "Webhooks",
+              "pages": [
+                "Reference/webhooks/create-webhook",
+                "Reference/webhooks/delete-webhook",
+                "Reference/webhooks/partial-update-webhook",
+                "Reference/webhooks/query-webhooks",
+                "Reference/webhooks/read-webhook",
+                "Reference/webhooks/rotate-webhook-slug",
+                "Reference/webhooks/update-webhook"
+              ]
+            },
+            {
+              "group": "Work Pools",
+              "pages": [
+                "Reference/work-pools/count-work-pools",
+                "Reference/work-pools/create-work-pool",
+                "Reference/work-pools/create-work-queue",
+                "Reference/work-pools/delete-work-pool",
+                "Reference/work-pools/delete-work-queue",
+                "Reference/work-pools/delete-worker",
+                "Reference/work-pools/get-scheduled-flow-runs",
+                "Reference/work-pools/read-work-pool",
+                "Reference/work-pools/read-work-pools",
+                "Reference/work-pools/read-work-queue",
+                "Reference/work-pools/read-work-queues",
+                "Reference/work-pools/read-workers",
+                "Reference/work-pools/update-work-pool",
+                "Reference/work-pools/update-work-queue",
+                "Reference/work-pools/worker-heartbeat"
+              ]
+            },
+            {
+              "group": "Work Queues",
+              "pages": [
+                "Reference/work-queues/create-work-queue",
+                "Reference/work-queues/delete-work-queue",
+                "Reference/work-queues/read-work-queue-by-name",
+                "Reference/work-queues/read-work-queue-runs",
+                "Reference/work-queues/read-work-queue-status",
+                "Reference/work-queues/read-work-queue",
+                "Reference/work-queues/read-work-queues",
+                "Reference/work-queues/update-work-queue"
+              ]
+            },
+            {
+              "group": "Workspace Bot Access",
+              "pages": [
+                "Reference/workspace-bot-access/delete-workspace-bot-access",
+                "Reference/workspace-bot-access/read-workspace-bot-access",
+                "Reference/workspace-bot-access/read-workspace-bot-accesses",
+                "Reference/workspace-bot-access/upsert-workspace-bot-access"
+            ]
+            },
+            {
+              "group": "Workspace Invitations",
+              "pages": [
+                "Reference/workspace-invitations/create-workspace-invitation",
+                "Reference/workspace-invitations/read-workspace-invitation",
+                "Reference/workspace-invitations/read-workspace-invitations",
+                "Reference/workspace-invitations/revoke-workspace-invitation"
+              ]
+            },
+            {
+              "group": "Workspace Roles",
+              "pages": [
+                "Reference/workspace-roles/create-workspace-role",
+                "Reference/workspace-roles/delete-workspace-role",
+                "Reference/workspace-roles/read-workspace-role",
+                "Reference/workspace-roles/read-workspace-roles",
+                "Reference/workspace-roles/update-workspace-role"
+              ]
+            },
+            {
+              "group": "Workspace Scopes",
+              "pages": [
+                "Reference/workspace-scopes/get-workspace-scopes"
+              ]
+            },
+            {
+              "group": "Workspace Team Access",
+              "pages": [
+                "Reference/workspace-team-access/read-workspace-team-accesses",
+                "Reference/workspace-team-access/remove-workspace-team-access",
+                "Reference/workspace-team-access/upsert-workspace-team-access"
+              ]
+            },
+            {
+              "group": "Workspace User Access",
+              "pages": [
+                "Reference/workspace-user-access/delete-workspace-user-access",
+                "Reference/workspace-user-access/read-workspace-user-access",
+                "Reference/workspace-user-access/read-workspace-user-accesses",
+                "Reference/workspace-user-access/upsert-workspace-user-access"
+              ]
+            },
+            {
+              "group": "Workspaces",
+              "pages": [
+                "Reference/workspaces/create-workspace",
+                "Reference/workspaces/find-workspace-without-account-id",
+                "Reference/workspaces/read-managed-execution-details",
+                "Reference/workspaces/read-workspace",
+                "Reference/workspaces/read-workspaces",
+                "Reference/workspaces/transfer-workspace",
+                "Reference/workspaces/validate-transfer-workspace"
+              ]
+            },
             "Reference/health-check",
             "Reference/validate-template"
         ]
