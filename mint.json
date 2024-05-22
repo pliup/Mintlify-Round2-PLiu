@@ -60,6 +60,13 @@
       ]
     },
     {
+      "group": "API Reference",
+      "pages": [
+        "Introduction",
+        "APIAPI"
+      ]
+    },
+    {
       "group": "SPEECH TO TEXT",
       "pages": [
         "Pre-recorded",
