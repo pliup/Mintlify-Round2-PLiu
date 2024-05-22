@@ -60,7 +60,7 @@
         "pages": [
             "Reference/Overview",
             "Reference/health-check",
-            "Reference/account-billing/cancel-org-subscription-at-period-end.mdx",
+            "Reference/account-billing/cancel-org-subscription-at-period-end",
             "Reference/validate-template"
         ]
     },
