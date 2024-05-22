@@ -4,3 +4,7 @@
 a{
   color: #f9f3f8; /*#79affa*/
 }
+#navbar {
+  background: "#101014";
+  padding: 1rem;
+}
