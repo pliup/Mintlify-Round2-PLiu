@@ -59,23 +59,37 @@
         "group": "API References",
         "pages": [
             "Reference/Overview",
-            "Reference/account-billing/cancel-org-subscription-at-period-end",
-            "Reference/account-billing/create-billing-portal-session",
-            "Reference/account-billing/create-checkout-session",
-            "Reference/account-billing/downgrade-tier",
-            "Reference/account-billing/get-billing-details",
-            "Reference/account-billing/process-checkout-session",
-            "Reference/account-billing/update-slots",
-            "Reference/account-memberships/count-account-memberships",
-            "Reference/account-memberships/delete-account-membership",
-            "Reference/account-memberships/read-account-membership",
-            "Reference/account-memberships/read-account-memberships",
-            "Reference/account-memberships/update-account-membership",
-            "Reference/account-roles/delete-account-role",
-            "Reference/account-roles/read-account-role",
-            "Reference/account-roles/read-account-roles",
-            "Reference/account-roles/update-account-role",
-            "Reference/account-sso",
+            {
+              "group": "Account Billing",
+              "pages": [
+                "Reference/account-billing/cancel-org-subscription-at-period-end",
+                "Reference/account-billing/create-billing-portal-session",
+                "Reference/account-billing/create-checkout-session",
+                "Reference/account-billing/downgrade-tier",
+                "Reference/account-billing/get-billing-details",
+                "Reference/account-billing/process-checkout-session",
+                "Reference/account-billing/update-slots"
+              ]
+            },
+            {
+              "group": "Account Memberships",
+              "pages": [
+                "Reference/account-memberships/count-account-memberships",
+                "Reference/account-memberships/delete-account-membership",
+                "Reference/account-memberships/read-account-membership",
+                "Reference/account-memberships/read-account-memberships",
+                "Reference/account-memberships/update-account-membership"
+              ]
+            },
+            {
+              "group": "Account Roles",
+              "pages": [
+                "Reference/account-roles/delete-account-role",
+                "Reference/account-roles/read-account-role",
+                "Reference/account-roles/read-account-roles",
+                "Reference/account-roles/update-account-role"
+              ]
+            },
             {
               "group": "Account SSO",
               "pages": [
