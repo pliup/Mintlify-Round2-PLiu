@@ -24,9 +24,6 @@
     "light": "#1c1c20",
     "dark": "#1c1c20"
   },
-  "primaryTab": {
-    "name": "Documentation"
-  },
   "tabs": [
     {
       "name": "Recipes",
